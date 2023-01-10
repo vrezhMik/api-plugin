@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.block{
+    border-bottom: 1px solid #e4e4e4;
+    width: 98%;
+    margin-bottom: 20px;
+}
+
+.table{
+    background: #fff;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+td,th{
+    text-align: center;
+}
+
+.two_blocks{
+    display: flex;
+}
+
+.table input{
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #555;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 7px 12px;
+    margin: 0 10px 0 0;
+    width: 150px;
+    min-height: 35px;
+    line-height: 1.3;
+
+}
+
+.table button{
+    background-color: transparent;
+    border: none;
+    color: #999;
+    margin: 0 0 0 10px;
+    padding: 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.table button:hover span{
+    color:#545353
+}
+
+.buttons button,
+.buttons input[type="submit"]{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 12px;
+    min-height: 35px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.buttons{
+    margin-bottom: 20px;
+}
+
+.save_button{
+    background-color: #738e9e;
+    border-color: #738e9e;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.save_button:hover{
+    background-color: #395360;
+}
+
+.reload_button{
+    background-color: #e27730;
+    border-color: #e27730;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.reload_button:hover{
+    background-color: #b85a1b;
+}
+
+.api-notice{
+    margin-left: 185px;
+}
+
+.disabled
+{
+    background:#e6c8b4 !important;
+    cursor: default !important;
+}

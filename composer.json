@@ -1,0 +1,19 @@
+{
+    "name": "admin/api",
+    "authors": [
+        {
+            "name": "vrezhMik",
+            "email": "vrezh.mikayelyan@tumo.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Admin\\":"admin/",
+            "Base\\":"base/",
+            "Api\\":"api/"
+        }
+    },
+    "require-dev": {
+        "php-stubs/wp-cli-stubs": "^2.7"
+    }
+}
